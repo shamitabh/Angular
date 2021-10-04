@@ -1,0 +1,20 @@
+<div style="text-align: center">
+  <h1>Routing and Navigation</h1>
+</div>
+
+<nav>
+  <a routerLink="/departments" routerLinkActive="active">Departments</a>
+  <a routerLink="/employees" routerLinkActive="active">Employees</a>
+</nav>
+
+<div>
+  <app-test></app-test>
+</div>
+<!-- routerLink directive acts as href -->
+<!-- routerLinkActive directive takes in css class(s) 
+    which will be activated when the lin is clicked. The classes 
+    needs to be mentioned in some .css file-->
+
+<router-outlet></router-outlet>
+<!-- router-outlet tag enables all the component based routing done
+    in the app-routing.module.ts file -->

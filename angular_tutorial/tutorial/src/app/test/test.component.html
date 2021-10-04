@@ -1,0 +1,15 @@
+<!-- NUMBERS -->
+<!-- 1.2-3 means minimum 1 digit before decimal and, 2-3 digits after decimal -->
+<h2>{{ 1.2345 | number: "1.2-3" }}</h2>
+
+<h2>{{ 1.2345 | number: "3.6" }}</h2>
+
+<h2>{{ 1.23 | percent }}</h2>
+
+<h2>{{ 1.23 | currency: "INR" }}</h2>
+
+<!-- DATES -->
+<h2>{{ date }}</h2>
+<h2>{{ date | date: "short" }}</h2>
+<h2>{{ date | date: "shortDate" }}</h2>
+<h2>{{ date | date: "shortTime" }}</h2>

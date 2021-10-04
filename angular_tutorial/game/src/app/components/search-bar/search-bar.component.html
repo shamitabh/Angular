@@ -1,0 +1,16 @@
+<div class="search-container">
+  <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <span class="logo-header" routerLink="/"
+      ><span class="logo-highlight">M</span>y
+      <span class="logo-highlight">G</span>ame
+      <span class="logo-highlight">Z</span>one</span
+    >
+    <input
+      type="text"
+      class="search-input"
+      name="search"
+      placeholder="enter game name to search bhosdike"
+    />
+    <button class="search-button">Search</button>
+  </form>
+</div>
